@@ -1,20 +1,3 @@
-//INi buat mode hamburger di bagian toggle nav (jadi nanti di mobile ga hancur)
-// MOBILE MENU TOGGLE
-const menuToggle = document.getElementById("menu-toggle");
-const mobileMenu = document.getElementById("mobile-menu");
-
-if (menuToggle) {
-  menuToggle.addEventListener("click", () => {
-    mobileMenu.classList.toggle("open");
-  });
-}
-
-// AUTO CLOSE PAS KLIK LINK
-document.querySelectorAll("#mobile-menu a").forEach(link => {
-  link.addEventListener("click", () => {
-    mobileMenu.classList.remove("open");
-  });
-});
 // ╔══════════════════════════════════════════════════════════╗
 // ║           ⚙️  KONFIGURASI — Edit bagian ini              ║
 // ╚══════════════════════════════════════════════════════════╝
@@ -297,10 +280,10 @@ const PROFILES = [
   // ══════════════════════════════════════════════════════════
   {
     id: 3,
-    name: "Dimas Kurniawan",
-    firstName: "Dimas",
-    lastName: "Kurniawan",
-    role: "Machine Learning Engineer & Data Scientist",
+    name: "Adrian Zahran Hakim",
+    firstName: "Adrian",
+    lastName: "Hakim ",
+    role: "Machine Learning Engineer & Web Developer",
     status: "Seeking PhD programs",
     desc: "Turning data into intelligence, and intelligence into impact.",
     accent: "#22c55e",
@@ -331,12 +314,11 @@ const PROFILES = [
       { date: "2024", title: "Data Science Intern", company: "Analytics Firm", desc: "Built churn and demand forecasting models.", tags: ["Python", "Scikit-learn", "Tableau"] },
     ],
     contact: {
-      email: "dimas@email.com",
+      email: "ardianhakim493@gmail.com",
       socials: [
-        { label: "Email", value: "dimas@email.com", href: "mailto:dimas@email.com", icon: "📧" },
-        { label: "LinkedIn", value: "linkedin.com/in/dimas", href: "https://linkedin.com/in/dimas", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" },
-        { label: "GitHub", value: "github.com/dimas", href: "https://github.com/dimas", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-        { label: "Instagram", value: "@dimas.ai", href: "https://instagram.com/dimas.ai", icon: "📸" },
+        { label: "Email", value: "ardianhakim493@email.com", href: "mailto:dimas@email.com", icon: "📧" },
+        { label: "GitHub", value: "github.com/adrian", href: "https://github.com/dimas", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+        { label: "Instagram", value: "yann_zhrn", href: "https://instagram.com/dimas.ai", icon: "📸" },
       ]
     },
     cvPath: "assets/cv/dimas-cv.pdf",
