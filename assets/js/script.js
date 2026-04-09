@@ -1,5 +1,5 @@
 // ╔══════════════════════════════════════════════════════════╗
-// ║           ⚙️  KONFIGURASI — Edit bagian ini              ║
+// ║           ⚙️  KONFIGURASI — Edit buhyftfagian ini              ║
 // ╚══════════════════════════════════════════════════════════╝
 
 // Gemini API Key — daftar gratis di: https://aistudio.google.com/app/apikey
