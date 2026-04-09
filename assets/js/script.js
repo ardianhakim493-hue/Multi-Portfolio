@@ -287,8 +287,8 @@ const PROFILES = [
     status: "Seeking PhD programs",
     desc: "Turning data into intelligence, and intelligence into impact.",
     accent: "#22c55e",
-    emoji: "🧠",
-    photo: "assets/profile4.jpg",    // ← ganti foto Dimas
+    emoji: "",
+    photo: "assets/projects/pung.jpeg",    // ← ganti foto Dimas
     stats: { projects: "6+", skills: "6+", exp: "2+" },
     about: "ML engineer passionate about computer vision, NLP, and edge AI. Research focus on efficient neural architectures for embedded systems.",
     education: [
@@ -316,12 +316,12 @@ const PROFILES = [
     contact: {
       email: "ardianhakim493@gmail.com",
       socials: [
-        { label: "Email", value: "ardianhakim493@email.com", href: "mailto:dimas@email.com", icon: "📧" },
-        { label: "GitHub", value: "github.com/adrian", href: "https://github.com/dimas", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+        { label: "Email", value: "ardianhakim493@email.com", href: "mailto:ardianhakim493@email.com", icon: "📧" },
+        { label: "GitHub", value: "github.com/adrian", href: "https://github.com/Ardianhakim493-hue", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
         { label: "Instagram", value: "yann_zhrn", href: "https://instagram.com/dimas.ai", icon: "📸" },
       ]
     },
-    cvPath: "assets/cv/dimas-cv.pdf",
+    cvPath: "assets/Adrian.pdf",
     typing: ["ML Engineer", "Data Scientist", "AI Researcher", "Computer Vision Dev"],
   }
 ];
